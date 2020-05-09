@@ -1,14 +1,6 @@
 {
     "songs": [
         {
-            "id": "aec623a2-a98f-405f-bb44-7723f03146f3",
-            "name": "Song 1",
-            "artist": "Artist 1",
-            "track_num": 2,
-            "is_awesome": true,
-            "icon_url": "https://picsum.photos/400/400?image=100"
-        },
-        {
             "id": "d5704cab-465e-41cf-bc69-a2268114c467",
             "name": "Song 2",
             "artist": "Artist 1",
