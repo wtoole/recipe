@@ -1,84 +1,359 @@
 {
-   "songs": [
-     {
-       "id": "aec623a2-a98f-405f-bb44-7723f03146f3",
-       "name": "Song 1",
-       "artist": "Artist 1",
-       "track_num": 2,
-       "is_awesome": true,
-       "icon_url": "https://picsum.photos/400/400?image=100"
-     },
-     {
-       "id": "d5704cab-465e-41cf-bc69-a2268114c467",
-       "name": "Song 2",
-       "artist": "Artist 1",
-       "track_num": 1,
-       "is_awesome": false,
-       "icon_url": "https://picsum.photos/400/400?image=101"
-     },
-     {
-       "id": "6e279567-137d-4828-995b-73b61e052e6a",
-       "name": "Song 3",
-       "artist": "Artist 1",
-       "track_num": 4,
-       "is_awesome": false,
-       "icon_url": "https://picsum.photos/400/400?image=102"
-     },
-     {
-       "id": "ee5ff241-d5cc-4339-858a-25766b8dc734",
-       "name": "Song 4",
-       "artist": "Artist 2",
-       "track_num": 1,
-       "is_awesome": false,
-       "icon_url": "https://picsum.photos/400/400?image=103"
-     },
-     {
-       "id": "22948bef-6240-42f5-8844-596f9bdc97fc",
-       "name": "Song 1",
-       "artist": "Artist 3",
-       "track_num": 12,
-       "is_awesome": true,
-       "icon_url": "https://picsum.photos/400/400?image=104"
-     },
-     {
-       "id": "61a794fd-4a05-45b8-9756-e53a05b862c3",
-       "name": "Song 2",
-       "artist": "Artist 3",
-       "track_num": 4,
-       "is_awesome": false,
-       "icon_url": "https://picsum.photos/400/400?image=105"
-     },
-     {
-       "id": "8c410cef-c121-4367-bf2d-7e5d16ae8326",
-       "name": "Song 6",
-       "artist": "Artist 4",
-       "track_num": 1,
-       "is_awesome": false,
-       "icon_url": "https://picsum.photos/400/400?image=106"
-     },
-     {
-       "id": "6f9ddd4c-2b9c-4f6f-ad4c-0f5268d6b859",
-       "name": "Song 3",
-       "artist": "Artist 4",
-       "track_num": 8,
-       "is_awesome": false,
-       "icon_url": "https://picsum.photos/400/400?image=107"
-     },
-     {
-       "id": "dee54c57-b032-4820-9032-1ed06e345d34",
-       "name": "Song 10",
-       "artist": "Artist 5",
-       "track_num": 5,
-       "is_awesome": false,
-       "icon_url": "https://picsum.photos/400/400?image=108"
-     },
-     {
-       "id": "3fe0de13-acbc-4ab5-8b57-85de3f16680f",
-       "name": "Song 9",
-       "artist": "Artist 5",
-       "track_num": 7,
-       "is_awesome": false,
-       "icon_url": "https://picsum.photos/400/400?image=109"
-     }
-   ]
- }
+  "recipes": [
+    {
+      "id": "aec623a2-a98f-405f-bb44-7723f03146f3",
+      "name": "Pizza",
+      "artist": "Maria's Pizzariea",
+      "track_num": 2,
+      "is_awesome": false
+    },
+    {
+      "id": "aec623a2-a98f-405f-bb44-7723f03146f3",
+      "name": "Pizza",
+      "artist": "Seasons Pizza",
+      "track_num": 2,
+      "is_awesome": false
+    },
+    {
+      "id": "aec623a2-a98f-405f-bb44-7723f03146f3",
+      "name": "Pizza",
+      "artist": "Dominos",
+      "track_num": 2,
+      "is_awesome": false
+    },
+    {
+      "id": "aec623a2-a98f-405f-bb44-7723f03146f3",
+      "name": "Pizza",
+      "artist": "Papa Johns",
+      "track_num": 2,
+      "is_awesome": false
+    },
+    {
+      "id": "aec623a2-a98f-405f-bb44-7723f03146f3",
+      "name": "Pizza",
+      "artist": "Domonicks",
+      "track_num": 2,
+      "is_awesome": false
+    },
+    {
+      "id": "d5704cab-465e-41cf-bc69-a2268114c467",
+      "name": "Burger",
+      "artist": "Gino's",
+      "track_num": 1,
+      "is_awesome": false
+    },
+    {
+      "id": "d5704cab-465e-41cf-bc69-a2268114c467",
+      "name": "Burger",
+      "artist": "Five Guys",
+      "track_num": 1,
+      "is_awesome": false
+    },
+    {
+      "id": "d5704cab-465e-41cf-bc69-a2268114c467",
+      "name": "Burger",
+      "artist": "McDonalds",
+      "track_num": 1,
+      "is_awesome": false
+    },
+    {
+      "id": "d5704cab-465e-41cf-bc69-a2268114c467",
+      "name": "Burger",
+      "artist": "Burger King",
+      "track_num": 1,
+      "is_awesome": false
+    },
+    {
+      "id": "d5704cab-465e-41cf-bc69-a2268114c467",
+      "name": "Burger",
+      "artist": "Wendy's",
+      "track_num": 1,
+      "is_awesome": false
+    },
+    {
+      "id": "6e279567-137d-4828-995b-73b61e052e6a",
+      "name": "Pasta",
+      "artist": "Stokos",
+      "track_num": 4,
+      "is_awesome": false
+    },
+    {
+      "id": "6e279567-137d-4828-995b-73b61e052e6a",
+      "name": "Pasta",
+      "artist": "Basta Pasta",
+      "track_num": 4,
+      "is_awesome": false
+    },
+    {
+      "id": "6e279567-137d-4828-995b-73b61e052e6a",
+      "name": "Pasta",
+      "artist": "Roma's",
+      "track_num": 4,
+      "is_awesome": false
+    },
+    {
+      "id": "6e279567-137d-4828-995b-73b61e052e6a",
+      "name": "Pasta",
+      "artist": "Pastosas Ravioli",
+      "track_num": 4,
+      "is_awesome": false
+    },
+    {
+      "id": "6e279567-137d-4828-995b-73b61e052e6a",
+      "name": "Pasta",
+      "artist": "Pasta House",
+      "track_num": 4,
+      "is_awesome": false
+    },
+    {
+      "id": "ee5ff241-d5cc-4339-858a-25766b8dc734",
+      "name": "Salad",
+      "artist": "Nalley Fresh",
+      "track_num": 1,
+      "is_awesome": false
+    },
+    {
+      "id": "ee5ff241-d5cc-4339-858a-25766b8dc734",
+      "name": "Salad",
+      "artist": "Noodles and Company",
+      "track_num": 1,
+      "is_awesome": false
+    },
+    {
+      "id": "ee5ff241-d5cc-4339-858a-25766b8dc734",
+      "name": "Salad",
+      "artist": "Season's Pizza",
+      "track_num": 1,
+      "is_awesome": false
+    },
+    {
+      "id": "ee5ff241-d5cc-4339-858a-25766b8dc734",
+      "name": "Salad",
+      "artist": "Panera Bread",
+      "track_num": 1,
+      "is_awesome": false
+    },
+    {
+      "id": "ee5ff241-d5cc-4339-858a-25766b8dc734",
+      "name": "Salad",
+      "artist": "Wings Things and More",
+      "track_num": 1,
+      "is_awesome": false
+    },
+    {
+      "id": "22948bef-6240-42f5-8844-596f9bdc97fc",
+      "name": "Sandwhich",
+      "artist": "Subway",
+      "track_num": 12,
+      "is_awesome": false
+      
+    },
+    {
+      "id": "22948bef-6240-42f5-8844-596f9bdc97fc",
+      "name": "Sandwhich",
+      "artist": "Jimmy Johns",
+      "track_num": 12,
+      "is_awesome": false
+      
+    },
+    {
+      "id": "22948bef-6240-42f5-8844-596f9bdc97fc",
+      "name": "Sandwhich",
+      "artist": "Jersey Mikes",
+      "track_num": 12,
+      "is_awesome": false
+      
+    },
+    {
+      "id": "22948bef-6240-42f5-8844-596f9bdc97fc",
+      "name": "Sandwhich",
+      "artist": "Potbelly",
+      "track_num": 12,
+      "is_awesome": false
+      
+    },
+    {
+      "id": "22948bef-6240-42f5-8844-596f9bdc97fc",
+      "name": "Sandwhich",
+      "artist": "Panera Bread",
+      "track_num": 12,
+      "is_awesome": false
+      
+    },
+    {
+      "id": "61a794fd-4a05-45b8-9756-e53a05b862c3",
+      "name": "Chicken",
+      "artist": "Nando's",
+      "track_num": 4,
+      "is_awesome": false
+    },
+    {
+      "id": "61a794fd-4a05-45b8-9756-e53a05b862c3",
+      "name": "Chicken",
+      "artist": "Royal Farms",
+      "track_num": 4,
+      "is_awesome": false
+    },
+    {
+      "id": "61a794fd-4a05-45b8-9756-e53a05b862c3",
+      "name": "Chicken",
+      "artist": "Pappa's",
+      "track_num": 4,
+      "is_awesome": false
+    },
+    {
+      "id": "61a794fd-4a05-45b8-9756-e53a05b862c3",
+      "name": "Chicken",
+      "artist": "Popeye's",
+      "track_num": 4,
+      "is_awesome": false
+    },
+    {
+      "id": "61a794fd-4a05-45b8-9756-e53a05b862c3",
+      "name": "Chicken",
+      "artist": "KFC",
+      "track_num": 4,
+      "is_awesome": false
+    },
+    {
+      "id": "8c410cef-c121-4367-bf2d-7e5d16ae8326",
+      "name": "Seafood",
+      "artist": "Pappa's",
+      "track_num": 1,
+      "is_awesome": false
+    },
+    {
+      "id": "8c410cef-c121-4367-bf2d-7e5d16ae8326",
+      "name": "Seafood",
+      "artist": "Pete's Crab House",
+      "track_num": 1,
+      "is_awesome": false
+    },
+    {
+      "id": "8c410cef-c121-4367-bf2d-7e5d16ae8326",
+      "name": "Seafood",
+      "artist": "Mo's Seafood",
+      "track_num": 1,
+      "is_awesome": false
+    },
+    {
+      "id": "8c410cef-c121-4367-bf2d-7e5d16ae8326",
+      "name": "Seafood",
+      "artist": "Conrad's",
+      "track_num": 1,
+      "is_awesome": false
+    },
+    {
+      "id": "8c410cef-c121-4367-bf2d-7e5d16ae8326",
+      "name": "Seafood",
+      "artist": "Jimmy's",
+      "track_num": 1,
+      "is_awesome": false
+    },
+    {
+      "id": "6f9ddd4c-2b9c-4f6f-ad4c-0f5268d6b859",
+      "name": "vegan",
+      "artist": "With Love",
+      "track_num": 8,
+      "is_awesome": false
+    },
+    {
+      "id": "6f9ddd4c-2b9c-4f6f-ad4c-0f5268d6b859",
+      "name": "vegan",
+      "artist": "Pavan Foods",
+      "track_num": 8,
+      "is_awesome": false
+    },
+    {
+      "id": "6f9ddd4c-2b9c-4f6f-ad4c-0f5268d6b859",
+      "name": "vegan",
+      "artist": "The Grub Factory",
+      "track_num": 8,
+      "is_awesome": false
+    },
+    {
+      "id": "6f9ddd4c-2b9c-4f6f-ad4c-0f5268d6b859",
+      "name": "vegan",
+      "artist": "Liquid Earth",
+      "track_num": 8,
+      "is_awesome": false
+    },
+    {
+      "id": "6f9ddd4c-2b9c-4f6f-ad4c-0f5268d6b859",
+      "name": "vegan",
+      "artist": "Naked Lunch",
+      "track_num": 8,
+      "is_awesome": false
+    },
+    {
+      "id": "dee54c57-b032-4820-9032-1ed06e345d34",
+      "name": "Dessert",
+      "artist": "Baskin-Robins",
+      "track_num": 5,
+      "is_awesome": false
+    },
+    {
+      "id": "dee54c57-b032-4820-9032-1ed06e345d34",
+      "name": "Dessert",
+      "artist": "The Cheesecake Factory",
+      "track_num": 5,
+      "is_awesome": false
+    },
+    {
+      "id": "dee54c57-b032-4820-9032-1ed06e345d34",
+      "name": "Dessert",
+      "artist": "Rita's Italian Ice",
+      "track_num": 5,
+      "is_awesome": false
+    },
+    {
+      "id": "dee54c57-b032-4820-9032-1ed06e345d34",
+      "name": "Dessert",
+      "artist": "Menchie's",
+      "track_num": 5,
+      "is_awesome": false
+    },
+    {
+      "id": "dee54c57-b032-4820-9032-1ed06e345d34",
+      "name": "Dessert",
+      "artist": "Tutti Frutti",
+      "track_num": 5,
+      "is_awesome": false
+    },
+    {
+      "id": "3fe0de13-acbc-4ab5-8b57-85de3f16680f",
+      "name": "Soup",
+      "artist": "Baltimore Soup Company",
+      "track_num": 7,
+      "is_awesome": false
+    },
+    {
+      "id": "3fe0de13-acbc-4ab5-8b57-85de3f16680f",
+      "name": "Soup",
+      "artist": "Pho D'lite",
+      "track_num": 7,
+      "is_awesome": false
+    },
+    {
+      "id": "3fe0de13-acbc-4ab5-8b57-85de3f16680f",
+      "name": "Soup",
+      "artist": "Panera",
+      "track_num": 7,
+      "is_awesome": false
+    },
+    {
+      "id": "3fe0de13-acbc-4ab5-8b57-85de3f16680f",
+      "name": "Soup",
+      "artist": "Soups's On",
+      "track_num": 7,
+      "is_awesome": false
+    },
+    {
+      "id": "3fe0de13-acbc-4ab5-8b57-85de3f16680f",
+      "name": "Soup",
+      "artist": "Noodle's and Company",
+      "track_num": 7,
+      "is_awesome": false
+    }
+  ]
+}
